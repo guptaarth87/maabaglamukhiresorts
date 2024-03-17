@@ -1,0 +1,11 @@
+/* .popup{
+    position:fixed;
+    z-index: 3;
+    margin-left: 20%;
+   
+}
+@media(max-width:700px){
+    .popup{
+        left:10px;
+    }
+} */

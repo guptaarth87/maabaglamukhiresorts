@@ -1,0 +1,52 @@
+.video_control {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.landing_background {
+    width: 100%;
+    height: 70vh;
+}
+
+.font-sectionone {
+    font-weight: 900;
+}
+
+.contentx {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    top: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.overlay {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 83vh; /* Updated to 100% */
+    background-color: rgba(0, 0, 0, .4);
+}
+
+@media (max-width: 1300px) {
+    .overlay {
+        height: auto; /* Set height to auto for smaller screens */
+        min-height: 85%; /* Minimum height for medium screens */
+        max-height: 100%; /* Maximum height for medium screens */
+    }
+}
+
+@media (max-width: 765px) {
+    .overlay {
+        height: auto; /* Set height to auto for smaller screens */
+        min-height: 85%; /* Minimum height for small screens */
+        max-height: 100%; /* Maximum height for small screens */
+    }
+}

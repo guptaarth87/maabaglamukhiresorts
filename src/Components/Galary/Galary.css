@@ -1,0 +1,11 @@
+.galary-img-height{
+    height:24rem !important;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.galary-img2-height{
+    height:12rem !important;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
