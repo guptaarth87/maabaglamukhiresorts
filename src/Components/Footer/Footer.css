@@ -2,7 +2,7 @@
     position: relative;
 }
 .subdiv{
-    background: linear-gradient(90deg,#DE331F  0%, #943025 100%);
+    background: linear-gradient(90deg,#070707  0%, #282820 100%);
     padding:2rem;
     border-radius: 15px;
 }
@@ -10,7 +10,7 @@
     width:100%;
     /* background: #28b78d; */
     /* background:  linear-gradient(90deg, rgb(69, 212, 167) 0%, rgb(45, 68, 98) 100%); */
-    background:  linear-gradient(90deg,#DE331F  0%, #943025 100%);
+    background:  linear-gradient(90deg,#070707  0%, #282820 100%);
     padding:5rem;
     top:3rem;
     position:absolute;

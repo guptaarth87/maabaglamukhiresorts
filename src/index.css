@@ -3,8 +3,8 @@
   font-family: 'Poppins', sans-serif;
 }
 .background_clr{
-    background: linear-gradient(90deg,#DE331F  0%, #943025 100%);
-    color:white !important;
+    background: linear-gradient(90deg,#080808  0%, #000000 100%);
+    color: #FFCD25 !important;
 }
 .white{
     color:white;
@@ -74,3 +74,7 @@
  
   }
 } */
+
+.gold{
+  color:#FFCD25;
+}

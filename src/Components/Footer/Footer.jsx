@@ -13,8 +13,8 @@ function Footer(){
        
             <div className="row gy-4 gx-5">
                 <div className="col-lg-4 col-md-6">
-                <h5 className="h1 white">Hotel</h5>
-                    <h5 className="h1 white">{BasicInfo.name}</h5>
+                <h5 className="h1 gold">Hotel</h5>
+                    <h5 className="h1 gold">{BasicInfo.name}</h5>
                     <p className="small white subhead">Best Room , Staff Services & Food Services!</p>
                     <p className="small white mb-0">&copy; Copyrights. All rights reserved. Hotel Amar Shanti</p>
                 </div>
