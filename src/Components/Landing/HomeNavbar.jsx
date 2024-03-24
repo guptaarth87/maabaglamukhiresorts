@@ -3,8 +3,8 @@ import { HashLink as HLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 // import Logo   from '../../assets/Logo.png';
 import { useEffect, useState } from 'react';
-import './Navbar.css';
-import MenuButton from './MenuButton';
+import './HomeNavbar.css';
+// import MenuButton from './MenuButton';
 // import { cardData } from '../../_helpers/DataConfig';
 import { BasicInfo } from '../../DataConfigFile';
 import { RiMenuFoldLine } from "react-icons/ri";
@@ -14,7 +14,7 @@ import { IoCloseCircle } from "react-icons/io5";
 
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-export default function Navbar() {
+export default function HomeNavbar() {
 
   const [show, setShow] = useState(false);
 
@@ -22,9 +22,25 @@ export default function Navbar() {
   const handleShow = () => setShow(true);
 
 
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY > 0;
+      setIsScrolled(scrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
   return (
     <>
-      <div className="navbar_custom flex bg-dark">
+      <div className={`navbar_custom flex ${isScrolled ? " bg-dark " : " "} `}>
         <div className="navcontent p-2 d-flex align-items-center justify-content-between">
 
           <HLink to='/'><img src={BasicInfo.logo} className=" alignLeft Logo" /></HLink>
@@ -46,13 +62,15 @@ export default function Navbar() {
       </div>
 
       <Offcanvas className="sidebar bg-dark" show={show} onHide={handleClose} placement='end' backdrop="true" backdropClassName>
-        <Offcanvas.Header >
-          <Offcanvas.Title className='sidebar_header'>{BasicInfo.name}</Offcanvas.Title>
+     
+        <Offcanvas.Header className='sidebar_header '>
+        
+          <Offcanvas.Title>{BasicInfo.name}</Offcanvas.Title>
 
           <span type="button" className="btn-close close-button" onClick={handleClose} aria-label="Close"> <IoCloseCircle></IoCloseCircle> </span>
-
         </Offcanvas.Header>
         <Offcanvas.Body>
+
           <ul className='sidebar_ul'>
             <li>
               <HLink className="sidebar_nav link5" to='/' >Home</HLink>

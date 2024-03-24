@@ -9,7 +9,7 @@ export default function BookPage() {
   return (
     <>
     <Navbar/>
-    <h2 className='alignCentre mt-4'>Rooms Available</h2><br></br><br></br>
+    <h2 className='alignCentre mt-4 margin-top-all-pages'>Rooms Available</h2><br></br><br></br>
    
      <BookRoom/>
      <Note/>

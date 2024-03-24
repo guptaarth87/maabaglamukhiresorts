@@ -7,7 +7,7 @@ export default function GaleryPage() {
   return (
     <>
     <Navbar/>
-    <div className="container">
+    <div className="container margin-top-all-pages">
      <Galary/>
     </div>
     <Footer2/>

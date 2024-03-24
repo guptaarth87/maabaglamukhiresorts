@@ -1,0 +1,9 @@
+.check-img{
+    height: 24rem;
+}
+
+@media (max-width: 768px) {
+    .check-img{
+        height: 14rem;
+    }
+}

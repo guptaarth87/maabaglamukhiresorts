@@ -147,7 +147,7 @@ export default function Check() {
         :
         <></>
       }
-    <img  className ="col-lg-6 mt-5 " src={check} />
+    <img  className ="col-lg-6 mt-5 check-img" src={check} />
     <div className="col-1"></div>
     <div className="card col-lg-4 p-3 " style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
     <h3 className='alignCentre'>Check Availability</h3>

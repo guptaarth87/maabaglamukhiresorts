@@ -1,7 +1,21 @@
 /*   color code*/
+body{
+  overflow-x: hidden;
+}
+
 *{
   font-family: 'Poppins', sans-serif;
+
 }
+
+.rr{
+  border: 2px solid red;
+}
+
+.margin-top-all-pages{
+  padding-top: 100px;
+}
+
 .background_clr{
     background: linear-gradient(90deg,#080808  0%, #000000 100%);
     color: #FFCD25 !important;
@@ -64,7 +78,7 @@
 }
 .img-control{
   border-radius: 30px;
-  height:34rem;
+  height:19rem;
   object-fit: cover;
 }
 

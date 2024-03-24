@@ -121,13 +121,13 @@ export const LandingpageData ={
     "room_section_data4":"Our friendly staff is always available to assist you with anything you need, ensuring your stay is seamless and memorable.",
     "gallary_section_img":gallary_img,
      "gallary_section_data1": "Looking for the perfect venue to celebrate your next special occasion? Celebrate Unforgettable Events at Amar Shanti Hotel in Meghnagar.",
-     "gallary_section_data2":"Our party hall is more than just a space – it's a destination where every event becomes a memory to cherish forever. Whether you're planning a birthday party, retirement party, corporate event, holiday party, engagement party, wedding reception, anniversary, baby shower, or any other gathering, we have everything you need to make it a success with hassle free and budget friendly amenities at our Amar Shanti Hotel.",
+     "gallary_section_data2":"Our party hall at Amar Shanti Hotel is a memorable destination for all events, offering hassle-free and budget-friendly amenities.",
      "gallary_section_data3":"Here's why Amar Shanti Hotel in Meghnagar is the ideal choice for your next event"
     }
 
 export const BasicInfo = {
     "logo":Logo,
-    "name": "Amar Shanti",
+    "name": "Maa Bagla Mukhi Hotel",
     "address" :"Above State Bank of India, Aspatal Chouraha, Megh Nagar, Madhya Pradesh 457779",
     "phone_no":"+91 9752450044",
     "email":"Amarshanti@gmail.com",

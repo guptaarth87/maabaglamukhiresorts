@@ -10,6 +10,7 @@ export default function CheckAvailability() {
   return (
    <>
    <Navbar/>
+     <div className='margin-top-all-pages'></div>
        <Check/>
        <Note/>
        <Footer2/>

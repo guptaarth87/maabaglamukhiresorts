@@ -19,14 +19,14 @@ export default function Bookrooms() {
         {LandingpageData.room_section_data2}
         <br></br>
         <br></br>
-        <div className="col-lg-10 col-sm-12 description">
+        {/* <div className="col-lg-10 col-sm-12 description">
       {LandingpageData.room_section_data3}
         <br></br>
         <br></br>
         {LandingpageData.room_section_data4}
         <br></br>
         <br></br>
-        </div>
+        </div> */}
         <Link to='/rooms' className='btn background_clr '>Book Rooms</Link>
        
       </div>

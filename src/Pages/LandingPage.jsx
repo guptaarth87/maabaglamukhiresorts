@@ -8,6 +8,9 @@ import Gallery from '../Components/Landing/Gallery'
 import Bookrooms from '../Components/Landing/Bookrooms'
 import { API_URL } from '../Config'
 import axios from 'axios';
+import Hero from '../Components/Landing/Hero'
+import ParalaxImg from '../Components/Landing/ParalaxImg'
+import Hopitality from '../Components/Landing/Hopitality'
 
 export default function LandingPage() {
 
@@ -44,16 +47,30 @@ export default function LandingPage() {
   }, []);
   return (
    <>
-   <Navbar/>
-   <  SectionOne/>
+   {/* <Navbar/> */}
+   {/* <SectionOne/> */}
+    
+   <Hero/>
+  
+
    <div className="container">
    <Bookrooms/>
    </div>
    
+   
+
    <Facilities/>
+
+   <ParalaxImg></ParalaxImg>
+
    <div className="container">
     <Gallery/>
    </div>
+
+    
+    <Hopitality></Hopitality>
+    
+
    <Footer/>
    </>
   )

@@ -13,7 +13,7 @@ export default function AboutUs() {
   return (
     <>
     <Navbar/>
-    <h2 className='alignCentre mt-4' id="aboutus">About Us</h2>
+    <h2 className='alignCentre mt-4 margin-top-all-pages' id="aboutus">About Us</h2>
      <h2 className='alignCentre mt-1' id="aboutus">Where Hospitality Meets Comforts</h2>
      <div className="container">
      <About/>

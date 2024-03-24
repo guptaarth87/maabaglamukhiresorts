@@ -8,7 +8,7 @@ export default function ContactusPage() {
   return (
     <>
       <Navbar/>
-      <div className="container">
+      <div className="container margin-top-all-pages">
         <h2 className='alignCentre mt-4'>Get In Touch With Us</h2>
     <div className="row mt-4">
     <div className="col-lg-7">

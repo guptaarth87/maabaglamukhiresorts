@@ -12,13 +12,13 @@ export default function Gallery() {
     <img src={LandingpageData.gallary_section_img} className="img-control col-lg-5" />
    
     <div className="col-lg-6 ">
-    <br></br>
+   
   
-        <h3>Events & Images</h3>
+        <h3 className=''>Events & Images</h3>
         <br></br>
         <div className="description">
        {LandingpageData.gallary_section_data1}
-       <br></br><br></br>
+      <br></br>
        {LandingpageData.gallary_section_data2}
         <br></br>
         <br></br>

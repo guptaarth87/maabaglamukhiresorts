@@ -7,7 +7,7 @@ export default function BookRoompage() {
   return (
    <>
    <Navbar/>
-   <div className="container">
+   <div className="container margin-top-all-pages">
     <Rooms/>
    </div>
    <Footer2/>

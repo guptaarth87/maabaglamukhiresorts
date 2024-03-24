@@ -32,7 +32,7 @@ export default function RoomDetails() {
   return (
     <>
     <Navbar/>
-    <div className="container">
+    <div className="container margin-top-all-pages">
     <h2 className='mt-4 alignCentre'>Details For {dataValue}</h2>
     <div className="row mt-4">
     
