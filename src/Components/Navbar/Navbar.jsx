@@ -11,6 +11,7 @@ import { RiMenuFoldLine } from "react-icons/ri";
 
 import { IoCloseCircle } from "react-icons/io5";
 
+import Logo from '../../Assets/logo-3.png'
 
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
@@ -27,7 +28,7 @@ export default function Navbar() {
       <div className="navbar_custom flex bg-dark">
         <div className="navcontent p-2 d-flex align-items-center justify-content-between">
 
-          <HLink to='/'><img src={BasicInfo.logo} className=" alignLeft Logo" /></HLink>
+          <HLink to='/'><img src={Logo} className=" alignLeft Logo" /></HLink>
 
           <div className='d-none d-lg-flex'>
 

@@ -3,6 +3,7 @@ import BookRoom from '../Components/BookRoom/BookRoom'
 import Footer2 from '../Components/Footer/Footer2'
 import Note from '../Components/RoomDetails/Note'
 import Navbar from '../Components/Navbar/Navbar'
+import Footer from '../Components/Footer/Footer'
 
 
 export default function BookPage() {
@@ -13,7 +14,7 @@ export default function BookPage() {
    
      <BookRoom/>
      <Note/>
-     <Footer2/>
+     <Footer/>
     </>
   )
 }

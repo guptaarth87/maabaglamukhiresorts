@@ -4,6 +4,7 @@ import Note from '../Components/RoomDetails/Note'
 import Footer2 from '../Components/Footer/Footer2'
 import Header from '../Components/Navbar/Header'
 import Navbar from '../Components/Navbar/Navbar'
+import Footer from '../Components/Footer/Footer'
 
 export default function CheckAvailability() {
   
@@ -13,7 +14,7 @@ export default function CheckAvailability() {
      <div className='margin-top-all-pages'></div>
        <Check/>
        <Note/>
-       <Footer2/>
+       <Footer/>
       
    </>
   )

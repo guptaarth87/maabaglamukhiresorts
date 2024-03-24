@@ -4,6 +4,7 @@ import Footer2 from '../Components/Footer/Footer2'
 import Header from '../Components/Navbar/Header'
 import { useNavigate} from 'react-router-dom';
 import Navbar from '../Components/Navbar/Navbar';
+import Footer from '../Components/Footer/Footer';
 
 export default function AboutUs() {
   // const navigate = useNavigate()
@@ -18,7 +19,7 @@ export default function AboutUs() {
      <div className="container">
      <About/>
      </div>
-   <Footer2/>
+   <Footer/>
     </>
   )
 }

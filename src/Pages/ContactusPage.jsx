@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import Footer2 from '../Components/Footer/Footer2'
 import contact from './contact.svg';
 import { BasicInfo } from '../DataConfigFile';
+import Footer from '../Components/Footer/Footer';
 
 export default function ContactusPage() {
   return (
@@ -30,7 +31,7 @@ export default function ContactusPage() {
        
     </div>
       </div>
-      <Footer2/>
+      <Footer/>
       </>
   )
 }
