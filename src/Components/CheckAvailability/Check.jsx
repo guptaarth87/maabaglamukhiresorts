@@ -77,7 +77,7 @@ export default function Check() {
         console.log("checkin",checkindate);
         console.log("checkout" , checkoutdate);
         console.log("today",today);
-        if (checkindate > today  ){
+        if (checkindate > today || checkindate == today ){
           if (checkindate < checkoutdate){
             return true;
           }else{
