@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Header from '../Navbar/Header';
 import './pay.css';
 import { API_URL } from '../../Config';
-import  QrCode from './QrCode.png'
+import  QrCode from './QrCode.jpeg'
 import axios from 'axios';
 import Loader from '../Loader/Loader';
 import Navbar from '../Navbar/Navbar';
