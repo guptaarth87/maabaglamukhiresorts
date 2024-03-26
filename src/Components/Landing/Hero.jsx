@@ -21,7 +21,7 @@ const Hero = () => {
               <div className="col-md-6 col-12">
                 <div className="hero-text">
                   <h2 className="hero-heading text-light text-center text-sm-start ">Welcome to <span className="hero-heading-color">{BasicInfo.name}</span></h2>
-                  <p className="hero-para text-light text-center text-sm-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit incidunt provident nostrum ratione. Dolor, omnis. Obcaecati unde quaerat minima dignissimos ad ab, cumque animi! </p>
+                  <p className="hero-para text-light text-center text-sm-start">We aim to offer a perfect blend of comfort, style, exceptional service, and warm hospitality, to ensure you have a restful and enjoyable stay </p>
                   {/* <Link to='/rooms' className=' background_clr '>Book Rooms</Link> */}
 
 
