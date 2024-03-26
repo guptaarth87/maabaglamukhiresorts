@@ -16,7 +16,7 @@ function Footer(){
                 <h5 className="h1 gold">Hotel</h5>
                     <h5 className="h1 gold">{BasicInfo.name}</h5>
                     <p className="small white subhead">Best Room , Staff Services & Food Services!</p>
-                    <p className="small white mb-0">&copy; Copyrights. All rights reserved. Hotel Amar Shanti</p>
+                    <p className="small white mb-0">&copy; Copyrights. All rights reserved. {BasicInfo.name}</p>
                 </div>
                 <div className="subdiv col-lg-7">
                 <div className="row">

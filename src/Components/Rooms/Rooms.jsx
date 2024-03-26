@@ -6,7 +6,7 @@ import Loader from '../Loader/Loader';
 
 export default function Rooms() {
   const [isLoading, setIsLoading] = useState(true);
-
+ 
   useEffect(() => {
     // Set a timer to change isLoading to false after 3 seconds
     const timer = setTimeout(() => {
