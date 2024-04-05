@@ -17,15 +17,15 @@ import cat3_rooom2 from './Assets/rooms images/Super Executive (Four Bed AC Room
 import cat3_rooom3 from './Assets/rooms images/Super Executive (Four Bed AC Room)/3.jpeg'
 
 // galary
-import img1 from './Assets/Galary/1.jpg';
-import img2 from './Assets/Galary/2.jpg';
-import img3 from './Assets/Galary/3.jpg';
-import img4 from './Assets/Galary/4.jpg';
-import img5 from './Assets/Galary/5.jpg';
+import img1 from './Assets/Galary/1.jpeg';
+import img2 from './Assets/Galary/2.jpeg';
+import img3 from './Assets/Galary/3.jpeg';
+import img4 from './Assets/Galary/4.jpeg';
+import img5 from './Assets/Galary/5.jpeg';
 
-import aboutimg1 from './Assets/about/about galary/1.jpg'
-import aboutimg2 from './Assets/about/about galary/2.jpg'
-import aboutimg3 from './Assets/about/about galary/3.jpg'
+import aboutimg1 from './Assets/about/about galary/1.jpeg'
+import aboutimg2 from './Assets/about/about galary/2.jpeg'
+import aboutimg3 from './Assets/about/about galary/3.jpeg'
 
 //Remember not to edit images and names of rooms 
 //You can edit

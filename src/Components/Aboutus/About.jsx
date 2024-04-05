@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../Assets/about/1.jpg';
+import img1 from '../../Assets/about/1.png';
 import {Link} from 'react-router-dom';
 import { Aboutus } from '../../DataConfigFile';
 import { BasicInfo } from '../../DataConfigFile';
