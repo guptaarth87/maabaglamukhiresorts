@@ -1,7 +1,7 @@
 import Logo from './Assets/logo.png';
 
-import gallary_img from './Assets/landing/gallary_img.jpg';
-import room_img from './Assets/landing/room_img.jpg';
+import gallary_img from './Assets/landing/gallary_img.jpeg';
+import room_img from './Assets/landing/room_img.jpeg';
 // import video1 from './Assets/landing/landing_video1.mp4';
 
 import cat1_room1 from './Assets/rooms images/Super Delux (Double Bed AC Room)/1.jpeg'
